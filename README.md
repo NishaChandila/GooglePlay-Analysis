@@ -48,6 +48,7 @@ This detailed information allows for comprehensive analysis of app performance a
 
 ## **Executive Summary**
 
+This project analyzes a comprehensive dataset from the Google Play Store, encompassing over 2 million rows and 24 columns of app-related data. Our primary objectives are to gain insights into app performance, availability, and update trends. By examining key metrics such as ratings, installs, and category distributions, we aim to identify patterns that can guide app developers and stakeholders in making informed decisions. Through meticulous data cleaning and visualization, this analysis sheds light on the current landscape of mobile applications, highlighting opportunities for innovation and growth in the marketplace.
 
 ![Power BI Dashboard](https://github.com/NishaChandila/project-assets/blob/main/googleplay1.PNG)
 
@@ -58,6 +59,7 @@ Analyzing the Google Play Store dataset, which includes over 2 million entries, 
 ![App & Performance](https://github.com/NishaChandila/project-assets/blob/main/googleplay2.PNG) 
 
 Key Findings
+
 **1. Rating Distribution:**
 
 - 51.38% of apps have a "Low" rating, indicating a need for improvement in quality.
@@ -82,7 +84,7 @@ Key Findings
 
 The Availability & Updates section highlights the frequency of app updates and their presence in the market, vital for assessing app ecosystem health.
 
-[Avaibility & Updates](https://github.com/NishaChandila/project-assets/blob/main/googleplay3.PNG)  
+![Avaibility & Updates](https://github.com/NishaChandila/project-assets/blob/main/googleplay3.PNG)  
 
 
 **Key Findings**
@@ -123,11 +125,11 @@ To ensure the accuracy and reliability of our analysis, a thorough data cleaning
 
 - Text fields, such as Category and Content Rating, were standardized to ensure consistency and eliminate variations in naming conventions.
   
-** 4. Outlier Detection:**
+**4. Outlier Detection:**
 
 - Potential outliers in numerical fields, such as Installs and Size, were identified and evaluated for removal, ensuring that extreme values did not skew the analysis.
 
-** 5. Categorization:**
+**5. Categorization:**
 
 - Apps were categorized based on defined criteria (e.g., price ranges, size ranges) to enable clearer comparisons and visualizations.
 
