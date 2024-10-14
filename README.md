@@ -43,7 +43,7 @@ The dataset consists of several columns providing detailed information about Goo
 
 This detailed information allows for comprehensive analysis of app performance and user engagement across the Google Play Store ecosystem.
 
-[You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+- [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 ---
 
 ## **Executive Summary**
