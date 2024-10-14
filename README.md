@@ -50,70 +50,87 @@ This detailed information allows for comprehensive analysis of app performance a
 
 This report presents an analysis of an online retail dataset collected from 2009 to 2011, containing over 1 million transactions. The dataset includes key details such as customer ID, invoice date, invoice number, product description, quantity, price, and country of transaction. Our primary objective was to segment customers based on their purchasing behavior and analyze churn rates to support business decisions aimed at improving customer retention and revenue growth.
 
-![Power BI Dashboard](https://github.com/NishaChandila/project-assets/blob/main/onlineretail1.PNG)
+![Power BI Dashboard](https://github.com/NishaChandila/project-assets/blob/main/googleplay1.PNG)
 
 ### **App Information**
 
 Analyzing the Google Play Store dataset, which includes over 2 million entries, reveals essential insights into app characteristics and user engagement.
 
-![App & Performance]() 
+![App & Performance](https://github.com/NishaChandila/project-assets/blob/main/googleplay2.PNG) 
 
 Key Findings
 **1. Rating Distribution:**
-o	51.38% of apps have a "Low" rating, indicating a need for improvement in quality.
-o	Only 16.78% achieve an "Excellent" rating, highlighting the opportunity for enhancing user satisfaction.
+
+- 51.38% of apps have a "Low" rating, indicating a need for improvement in quality.
+
+- Only 16.78% achieve an "Excellent" rating, highlighting the opportunity for enhancing user satisfaction.
 
 
 **2.	Free vs. Paid Apps:**
-o	The dataset shows a strong preference for free apps, suggesting that developers should consider offering free versions or trials to attract users.
+
+- The dataset shows a strong preference for free apps, suggesting that developers should consider offering free versions or trials to attract users.
 
 **3.	Category Insights:**
-o	Popular categories include Education, Music and Audio, and Tools. Tailoring offerings to these demands can drive user engagement.
+
+- Popular categories include Education, Music and Audio, and Tools. Tailoring offerings to these demands can drive user engagement.
 
 **4.	Release Trends:**
-o	A peak in app releases occurs in May, suggesting it is an optimal time for launching new applications.
+ 
+- A peak in app releases occurs in May, suggesting it is an optimal time for launching new applications.
 
 
 ### **Availability & Updates**
 
 The Availability & Updates section highlights the frequency of app updates and their presence in the market, vital for assessing app ecosystem health.
 
-[Avaibility & Updates]()  
+[Avaibility & Updates](https://github.com/NishaChandila/project-assets/blob/main/googleplay3.PNG)  
 
 
 **Key Findings**
 
 **1.	Editor’s Choice Apps:**
-o	There are 2,230 apps marked as "Editor’s Choice," signifying high-quality selections that enhance visibility.
+
+- There are 2,230 apps marked as "Editor’s Choice," signifying high-quality selections that enhance visibility.
 
 **2.	Updates by Developer:**
-o	Subsplash Inc. accounts for 35.66% of all updates, indicating active engagement in maintaining app relevance.
+
+- Subsplash Inc. accounts for 35.66% of all updates, indicating active engagement in maintaining app relevance.
 
 **3.	Category-Specific Updates:**
-o	Education apps lead with 234.56k updates, followed by Music apps at 152.72k. Frequent updates are essential in fast-evolving categories.
+
+- Education apps lead with 234.56k updates, followed by Music apps at 152.72k. Frequent updates are essential in fast-evolving categories.
 
 **4.	Annual Growth Trends:**
-o	2019 was significant, with 541k new apps launched, reflecting growing demand for innovative applications.
+
+- 2019 was significant, with 541k new apps launched, reflecting growing demand for innovative applications.
 
 ---
 
 ## **Data Cleaning and RFM Analysis Summary**
 
-To prepare for customer segmentation analysis, we conducted critical data cleaning and analysis steps:
+**Data Cleaning Process**
 
-1. **Missing Values Handling**:
-   - **Description**: We addressed 4,382 missing values (0.41%) in the Description column by replacing them with 'Unknown', preserving the context for our analysis.
-   - **Customer ID**: For the 243,007 missing CustomerID values (22.76%), we created a new column called CustomerType and labeled these as 'Guest' to represent unregistered transactions.
+To ensure the accuracy and reliability of our analysis, a thorough data cleaning process was conducted on the Google Play Store dataset. Here are the key steps involved:
 
-2. **Outlier Detection**:
-   - We identified and removed extreme outliers in the Price and Quantity columns using box plots and the Interquartile Range (IQR) method to ensure that our analysis reflects typical customer behavior without distortion from outliers.
+1. **Handling Missing Values:**
 
-3. **RFM Analysis**:
-   - **Recency**: Calculated the number of days since each customer's last purchase.
-   - **Frequency**: Counted the total number of purchases made by each customer.
-   - **Monetary**: Summed the total amount spent by each customer.
-   - **RFM Score**: Combined the scores for recency, frequency, and monetary value to create a composite RFM Score, allowing us to rank customers based on their engagement.
-   - **Segmentation**: Categorized customers into segments such as Champions, Loyal Customers, At Risk, Hibernating, and Lost Customers based on their RFM Score, facilitating targeted marketing and engagement strategies.
+- Rows with critical missing information, such as app names or category identifiers, were removed.For fields like ratings and reviews, entries were set to NaN when not applicable, allowing for better handling during analysis.
+  
+**2. Data Type Conversion:**
+
+- Columns such as Release Date, Rating, and Size were converted to appropriate data types (e.g., datetime for release dates, numeric for ratings) to facilitate accurate calculations and visualizations.
+  
+**3. Standardization:**
+
+- Text fields, such as Category and Content Rating, were standardized to ensure consistency and eliminate variations in naming conventions.
+  
+** 4. Outlier Detection:**
+
+- Potential outliers in numerical fields, such as Installs and Size, were identified and evaluated for removal, ensuring that extreme values did not skew the analysis.
+
+** 5. Categorization:**
+
+- Apps were categorized based on defined criteria (e.g., price ranges, size ranges) to enable clearer comparisons and visualizations.
 
 - [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
 
