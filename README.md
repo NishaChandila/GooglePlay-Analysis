@@ -13,7 +13,7 @@ This analysis aims to provide actionable insights for developers, marketers, and
 
 - [Power BI Dashboard Link](https://github.com/NishaChandila/OnlineRetail-Customer-Segmentation/blob/main/Customer-Segmentation-Dashboard.pdf)  
 - [Data Cleaning & EDA File](https://github.com/NishaChandila/OnlineRetail-Customer-Segmentation/blob/main/OnlineRetail-DC.ipynb)
-- [You can access the dataset from these links:](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+- [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 
 ----
 
@@ -43,12 +43,11 @@ The dataset consists of several columns providing detailed information about Goo
 
 This detailed information allows for comprehensive analysis of app performance and user engagement across the Google Play Store ecosystem.
 
-[You can access the dataset from these links:](https://www.kaggle.com/datasets/sanlian/online-retail-dataset/data)
+[You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 ---
 
 ## **Executive Summary**
 
-This report presents an analysis of an online retail dataset collected from 2009 to 2011, containing over 1 million transactions. The dataset includes key details such as customer ID, invoice date, invoice number, product description, quantity, price, and country of transaction. Our primary objective was to segment customers based on their purchasing behavior and analyze churn rates to support business decisions aimed at improving customer retention and revenue growth.
 
 ![Power BI Dashboard](https://github.com/NishaChandila/project-assets/blob/main/googleplay1.PNG)
 
@@ -153,4 +152,4 @@ To ensure the accuracy and reliability of our analysis, a thorough data cleaning
 
 - [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-Dashboard.pdf)  
 - [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
-- [You can access the dataset from these links:](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+- [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
