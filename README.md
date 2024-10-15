@@ -11,15 +11,15 @@ We conducted thorough **data cleaning** to address missing values, standardize f
 This analysis aims to provide actionable insights for developers, marketers, and businesses to better understand app trends and user preferences.
 
 
-- [Power BI Dashboard Link](https://github.com/NishaChandila/OnlineRetail-Customer-Segmentation/blob/main/Customer-Segmentation-Dashboard.pdf)  
-- [Data Cleaning & EDA File](https://github.com/NishaChandila/OnlineRetail-Customer-Segmentation/blob/main/OnlineRetail-DC.ipynb)
+- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
+- [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
 - [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 
 ----
 
 ## **Data Structure**
 
-The dataset used for this analysis was sourced from Kaggle and contains transactional data from an online retail store. It spans two fiscal years: 2009-2010 and 2010-2011.
+The Google Play dataset, sourced from Kaggle, contains over 2 million rows of data, offering a comprehensive overview of app performance, user engagement, and developer activity. This dataset includes a variety of key attributes such as app categories, ratings, installs, and update histories, providing valuable insights into the mobile app ecosystem.
 
 ### **Dataset Preview:**
 ![Dataset Preview](https://github.com/NishaChandila/project-assets/blob/main/data.PNG?raw=true)  
@@ -29,16 +29,27 @@ The dataset consists of several columns providing detailed information about Goo
 
 - **App Name:** The name of the app.
 •	**Category:** App category (e.g., Games, Productivity).
+
 •	**Content Rating:** Age-appropriate rating (e.g., Everyone, Teen).
+
 •	**Installs:** The number of times the app has been installed, including minimum and maximum values.
+
 •	**Price:** Whether the app is free or paid, with pricing details.
+
 •	**In-App Purchases:** Indicates if the app offers in-app purchases.
+
 •	**Rating:** Average user rating (on a scale from 0 to 5).
+
 •	**Rating Count:** Total number of ratings submitted by users.
+
 •	**Size:** App size, typically in MB or KB.
+
 •	**Minimum Android Version:** The lowest Android version required to run the app.
+
 •	**Developer Information:** Includes developer email, ID, and website.
+
 •	**Release Date:** The app’s initial release date.
+
 •	**Last Updated:** The most recent date the app was updated.
 
 This detailed information allows for comprehensive analysis of app performance and user engagement across the Google Play Store ecosystem.
@@ -56,7 +67,7 @@ This project analyzes a comprehensive dataset from the Google Play Store, encomp
 
 Analyzing the Google Play Store dataset, which includes over 2 million entries, reveals essential insights into app characteristics and user engagement.
 
-![App & Performance](https://github.com/NishaChandila/project-assets/blob/main/googleplay2.PNG) 
+![App & Performance](https://github.com/NishaChandila/project-assets/blob/main/googleplay2.PNG?raw=true) 
 
 Key Findings
 
@@ -91,7 +102,7 @@ The Availability & Updates section highlights the frequency of app updates and t
 
 **1.	Editor’s Choice Apps:**
 
-- There are 2,230 apps marked as "Editor’s Choice," signifying high-quality selections that enhance visibility.
+- There are 2,230K apps marked as "Editor’s Choice," signifying high-quality selections that enhance visibility.
 
 **2.	Updates by Developer:**
 
