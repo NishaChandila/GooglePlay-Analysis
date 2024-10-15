@@ -22,7 +22,7 @@ This analysis aims to provide actionable insights for developers, marketers, and
 The dataset used for this analysis was sourced from Kaggle and contains transactional data from an online retail store. It spans two fiscal years: 2009-2010 and 2010-2011.
 
 ### **Dataset Preview:**
-![Dataset Preview]()  
+![Dataset Preview](https://github.com/NishaChandila/project-assets/blob/main/data.PNG?raw=true)  
 
 ### **Data Columns:**
 The dataset consists of several columns providing detailed information about Google Play Store apps:
