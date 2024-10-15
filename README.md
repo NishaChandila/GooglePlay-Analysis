@@ -164,6 +164,6 @@ To ensure the accuracy and reliability of our analysis, a thorough data cleaning
 6.	**Aim for Editor’s Choice Status:** Strive to meet the quality standards of the 2,230 "Editor’s Choice" apps to gain visibility and credibility in the marketplace.
 
 
-- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-Dashboard.pdf)  
+- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
 - [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
 - [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
