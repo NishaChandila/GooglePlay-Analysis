@@ -116,6 +116,9 @@ The Availability & Updates section highlights the frequency of app updates and t
 
 - 2019 was significant, with 541k new apps launched, reflecting growing demand for innovative applications.
 
+
+- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)
+  
 ---
 
 ## **Data Cleaning and RFM Analysis Summary**
