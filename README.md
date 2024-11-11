@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-"On Google Play, every app is more than just code—it's a vision turned into reality, solving problems or bringing joy. Its true power lies not in features but in the lives it touches and connections it creates. Success isn’t just about downloads; it’s about making something that truly matters."
+> "On Google Play, every app is more than just code—it's a vision turned into reality, solving problems or bringing joy. Its true power lies not in features but in the lives it touches and connections it creates. Success isn’t just about downloads; it’s about making something that truly matters."
 
 This project analyzes a dataset of over **2 million rows** sourced from the **Kaggle Google Play Store dataset**. The objective is to gain insights into user behavior, app performance, and trends by examining key factors such as installs, ratings, pricing, and in-app purchases.
 
