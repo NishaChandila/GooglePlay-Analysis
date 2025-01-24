@@ -10,10 +10,9 @@ We conducted thorough **data cleaning** to address missing values, standardize f
 
 This analysis aims to provide actionable insights for developers, marketers, and businesses to better understand app trends and user preferences.
 
-
-- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
-- [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
-- [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+- GooglePlay [Power BI Dashboard](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
+- GooglePlay [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
+- GooglePlay [Dataset](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 
 ----
 
@@ -54,7 +53,9 @@ The dataset consists of several columns providing detailed information about Goo
 
 This detailed information allows for comprehensive analysis of app performance and user engagement across the Google Play Store ecosystem.
 
-- [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+- GooglePlay [Power BI Dashboard](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
+- GooglePlay [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
+- GooglePlay [Dataset](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
 ---
 
 ## **Executive Summary**
@@ -117,7 +118,7 @@ The Availability & Updates section highlights the frequency of app updates and t
 - 2019 was significant, with 541k new apps launched, reflecting growing demand for innovative applications.
 
 
-- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)
+- GooglePlay [Power BI Dashboard](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)
   
 ---
 
@@ -148,7 +149,7 @@ To ensure the accuracy and reliability of our analysis, a thorough data cleaning
 - Apps were categorized based on defined criteria (e.g., price ranges, size ranges) to enable clearer comparisons and visualizations.
 
 
-- [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
+- GooglePlay [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
 
 ---
 
@@ -166,7 +167,6 @@ To ensure the accuracy and reliability of our analysis, a thorough data cleaning
 	
 6.	**Aim for Editor’s Choice Status:** Strive to meet the quality standards of the 2,230 "Editor’s Choice" apps to gain visibility and credibility in the marketplace.
 
-
-- [Power BI Dashboard Link](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
-- [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
-- [You can access the dataset from here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+- GooglePlay [Power BI Dashboard](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-dashboard.pdf)  
+- GooglePlay [Data Cleaning & EDA File](https://github.com/NishaChandila/GooglePlay-Analysis/blob/main/GooglePlay-DC.ipynb)
+- GooglePlay [Dataste](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
